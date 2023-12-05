@@ -2,9 +2,13 @@
 This Nugget shows how to find all the liquidity pools on UniswapV3, given two token addresses.
 
 ## Usage
-`node findPool-UniswapV3/findPool-UniswapV3.js`
+```
+node findPool-UniswapV3/findPool-UniswapV3.js
+```
 or
-`npm run findPool`
+```
+npm run findPool
+```
 
 
 ## References
