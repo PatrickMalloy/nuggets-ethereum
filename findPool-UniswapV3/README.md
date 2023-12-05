@@ -6,16 +6,15 @@ node findPool-UniswapV3/findPool-UniswapV3.js
 or
 npm run findPool
 
-## Examples
 
 ## References
-https://info.uniswap.org/
+[info.uniswap.org] (https://info.uniswap.org/)
 
-https://docs.uniswap.org/contracts/v3/reference/deployments
+[docs.uniswap.org/contracts/v3/reference/deployments] (https://docs.uniswap.org/contracts/v3/reference/deployments)
 
-https://docs.uniswap.org/contracts/v3/reference/core/interfaces/IUniswapV3Factory#getpool
+[docs.uniswap.org/contracts/v3/reference/core/interfaces/IUniswapV3Factory#getpool] (https://docs.uniswap.org/contracts/v3/reference/core/interfaces/IUniswapV3Factory#getpool)
 
-https://docs.uniswap.org/concepts/protocol/fees
+[docs.uniswap.org/concepts/protocol/fees] (https://docs.uniswap.org/concepts/protocol/fees)
 
 
 

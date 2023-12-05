@@ -7,8 +7,8 @@ These Nuggets show how to interact with the Ethereum Blockchain using Javascript
 ## Installation
 Clone the repository:
 
-https://github.com/PatrickMalloy/nuggets-ethereum.git
+```git clone https://github.com/PatrickMalloy/nuggets-ethereum.git
 
 cd nuggets-ethereum
 
-npm install
+npm install```
