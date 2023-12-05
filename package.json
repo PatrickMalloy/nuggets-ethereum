@@ -5,11 +5,18 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "createWallet": "node create-wallet/createWallet.js"
+    "createWallet": "node create-wallet/createWallet.js",
+    "findPool": "node --no-warnings findPool-UniswapV3/findPool-UniswapV3.js"
   },
   "author": "Patrick Malloy",
   "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  },
   "dependencies": {
-    "ethers": "^6.8.0"
+    "@uniswap/sdk-core": "^4.0.6",
+    "@uniswap/v3-core": "^1.0.1",
+    "ethers": "^6.6.5"
   }
 }

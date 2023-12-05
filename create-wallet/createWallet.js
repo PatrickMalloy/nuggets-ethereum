@@ -1,6 +1,6 @@
 import { Wallet, getDefaultProvider } from "ethers";
 
-// Use Ethers DefaultProvider for the Sepolia Testnet
+// Use Ethers DefaultProvider for the Ethereum Sepolia Testnet
 const provider = getDefaultProvider("sepolia");
 
 function createWallet() {
