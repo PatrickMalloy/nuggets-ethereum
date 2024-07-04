@@ -4,13 +4,10 @@ import fs from "fs";
 // Use Ethers DefaultProvider for the Ethereum Sepolia Testnet
 const provider = getDefaultProvider("sepolia");
 
-//let accountNum = 0;
-
 function createWallet(_numAccounts) {
   for (let count=1; count <= _numAccounts; count++ ) {
     // Create a new random Ethereum account.
     const walletRandom = Wallet.createRandom();
-    //accountNum++;
     console.log(`[ACCOUNT_${count}]`);
     saveAccount(walletRandom, `[ACCOUNT_${count}]`);
     logWallet(walletRandom, "From Random");
@@ -31,10 +28,10 @@ function createWallet(_numAccounts) {
 function saveAccount(_wallet, _header) {
   const content = _header + "\n" +
   "ADDRESS='" + _wallet.address + "'\n" +
-  "PRIVATE_KEY='" + _wallet.privateKey + "'\n" +
-  "MNEMONIC='" + _wallet.mnemonic.phrase + "'\n\n";
+  "  PRIVATE_KEY='" + _wallet.privateKey + "'\n" +
+  "  MNEMONIC='" + _wallet.mnemonic.phrase + "'\n\n";
 
-  fs.writeFile('./.env', content, { flag: 'a'}, err => {
+  fs.writeFile('Accounts.txt', content, { flag: 'a'}, err => {
     if(err) {
       console.log(err);
     }
