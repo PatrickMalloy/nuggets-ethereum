@@ -31,7 +31,7 @@ function saveAccount(_wallet, _header) {
   "  PRIVATE_KEY='" + _wallet.privateKey + "'\n" +
   "  MNEMONIC='" + _wallet.mnemonic.phrase + "'\n\n";
 
-  fs.writeFile('Accounts.txt', content, { flag: 'a'}, err => {
+  fs.writeFile('./create-wallet/Accounts.txt', content, { flag: 'a'}, err => {
     if(err) {
       console.log(err);
     }
